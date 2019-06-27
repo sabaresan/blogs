@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Blog</title>
+<link rel="stylesheet"href="style.css">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<header>
+<div class="logo">
+<h1 class="logo-text">INFINITI</h1>
+</div>
+<i class="fa fa-bars menu-toggle"></i>
+<ul class="nav">
+<li><a href="#">Home</a>
+<ul style="left:0px;">
+<li><a href="#">Galleries</a></li>
+<li><a href="#">Openings</a></li>
+</ul>
+</li>
+<li><a href="#">About</a></li>
+
+<li><a href="#">Dashboard</a></li>
+<li><a href="#"class="Logout">logout</a></li>
+</ul>
+</li>
+</ul>
+</header>
+<body>
+<h3>AT YOUR PRICE</h3>
+<center><img src="img/i4.jpg"></center>
+<p>Atyourprice is a robust web based business travel solution that automates travel planning, requisition, approval, fulfillment, invoicing, reporting and duty of care. Automation brings exponential savings to business travel programs and also makes the travel procurement process more operationally efficient.
+
+Features
+Customised work flow 
+Automate and alert your travel or trip approver with not just necessity to travel but also cost associated with it. With our multi level work flow engine travelers and approvers will be able to effectively and efficiently plan and approve travel requests or indents.
+
+Policy enforcement 
+The challenge for most travel managements is to enforce adherence to travel policy. Our travel policy engine can be configured to ensure 100% policy compliance. The policy level settings can be configured on band, designation, department, location or title.
+
+Custom report engine 
+Custom reports engine enables your organization to derive data to measure the effectiveness of your travel program. Analytical reports will help your organization to quantify losses resulting due to buying habits of employees.
+
+Explore : http://www.atyourprice.net
+
+</p>
+ <h2>Comment Here....</h2>
+</div>
+
+<div id="commentbackground">
+
+<p id="para"></p>
+
+<form><br>
+<textarea id="words" rows="5" cols="80"></textarea>
+<input type="button" onclick="getwords()" value="Submit" />
+</form>
+
+<script type="text/javascript">
+function getwords(){
+text = words.value;
+document.getElementById("para").innerHTML = text
+document.getElementById("words").innerHTML = "enter"
+}
+</script>
+
+</div>
+<h1>share on..</h1>
+<a href="https://twitter.com/share?url=<URL>&text=<TEXT>&via=<VIA>" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+</a>
+
+<a href="https://plus.google.com/share?url=<BTN>" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+</a>
+
+<a href="https://facebook.com/share?url=<URL>" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+</a>
+<a href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+</a>
+<a href="mailto:?subject=<SUBJECT&body=<BODY>" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+</a><br><br>
+<div class="foot">
+</div>
+</body>
+</html>

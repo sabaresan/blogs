@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Blog</title>
+<link rel="stylesheet"href="style.css">
+<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<header>
+<div class="logo">
+<h1 class="logo-text">INFINITI</h1>
+</div>
+<i class="fa fa-bars menu-toggle"></i>
+<ul class="nav">
+<li><a href="#">Home</a>
+<ul style="left:0px;">
+<li><a href="#">Galleries</a></li>
+<li><a href="#">Openings</a></li>
+</ul>
+</li>
+<li><a href="#">About</a></li>
+<li><a href="#">Dashboard</a></li>
+<li><a href="#"class="Logout">logout</a></li>
+</ul>
+</li>
+</ul>
+</header>
+<body>
+<h3>CRAFT</h3>
+<center><img src="img/i6.jpg"></center>
+<p>CrAFT is an intuitive and highly effective revenue management solution based on accurate forecasting for airlines, devised by our experts who have decades of experience with designing successful revenue management systems and processes for several international airlines. CrAFT is also having various versions designed to suit airlines with different scales of operations and business models.
+
+Features
+Demand forecasting 
+CrAFT demand forecasting module uses proven and advanced statistical techniques to predict demand based on information from all similar flights for which historic data is available. The demand for air travel exhibits patterns either cyclic in nature (such as time-of-day, day-of-week or season-of-year demand), or trends (such as growth in demand due to growth in the economy), which can be projected to estimate future demand in each market segment.
+
+Inventory optimization 
+To generate maximum revenue the optimal number of seats can be allocated to the various price points. The process ensures that fare classes of lower value are closed for sale to save seats for late-arriving customers who are yet to book and will buy seats at a higher value. The system uses the Expected Marginal Seat Revenue algorithm to compute the number of seats to save for late-booking-higher-valued fare products.
+
+Price optimization 
+The system is designed to allow the airline's revenue management analyst to choose the pricing strategy that fits an optimised flight best. There are various types of pricing strategies available to choose from depending on the characteristics of the flight, data availability, and the analyst's intuition.</p>
+ <h2>Comment Here....</h2>
+</div>
+
+<div id="commentbackground">
+
+<p id="para"></p>
+
+<form><br>
+<textarea id="words" rows="5" cols="80"></textarea>
+<input type="button" onclick="getwords()" value="Submit" />
+</form>
+
+<script type="text/javascript">
+function getwords(){
+text = words.value;
+document.getElementById("para").innerHTML = text
+document.getElementById("words").innerHTML = "enter"
+}
+</script>
+
+</div>
+<h1>share on..</h1>
+<a href="https://twitter.com/share?url=<URL>&text=<TEXT>&via=<VIA>" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+</a>
+
+<a href="https://plus.google.com/share?url=<BTN>" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+</a>
+
+<a href="https://facebook.com/share?url=<URL>" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+</a>
+<a href="https://www.linkedin.com/shareArticle?url=<URL>&title=<TITLE>&summary=<SUMMARY>&source=<SOURCE_URL>" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+</a>
+<a href="mailto:?subject=<SUBJECT&body=<BODY>" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+</a><br><br>
+<div class="foot">
+</div>
+</body>
+</html>
