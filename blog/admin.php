@@ -31,28 +31,7 @@
 			background:black;
 			color:white;
 			}
-			#sidebar{
-				width:300px;
-				height:400px;
-				background:#27ae60;
-				float:left;
-				}
-				#post{
-					height:700px;
-					background:#c0392b;
-					}
-					#logo{
-						background:white;
-						
-						}
-						ul li{
-							padding:20px;
-							border-bottom:2px solid grey;
-							}
-							ul li:hover{
-								background:#c0392b;
-								color:white;
-								}
+			
 </style>
 </head>
 
@@ -64,16 +43,11 @@
 
 <br>
 
-This is Admin Panel,Please proceed with caution!
 </center>
 </div>
-<div id="sidebar">
-<ul>
-<p><u>Categories</u></p>
-<a href="post.html"><li>Products</li></a>
-<a href="about.html"><li>About</li></a>
-</ul>
-</div>
+<br>
+<br>
+<br>
 <div id="post">
 </div>
 	
@@ -88,8 +62,8 @@ This is Admin Panel,Please proceed with caution!
 <table>
 	<thead>
 		<tr>
-			<th>Article</th>
-			<th>Publish</th>
+			<th>Products</th>
+			<th>About</th>
 			<th colspan="2">Action</th>
 		</tr>
 	</thead>
